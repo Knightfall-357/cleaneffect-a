@@ -2,7 +2,7 @@ import { bindings, defineConfig, defineWorker } from "cf/config";
 
 export default defineConfig({
   worker: defineWorker({
-    name: "cleaneffect-lagos",
+    name: "cleaneffect-a",
     entrypoint: "vinext/server/fetch-handler",
     compatibilityDate: "2026-10-29",
     compatibilityFlags: ["nodejs_compat"],
